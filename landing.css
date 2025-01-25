@@ -23,7 +23,7 @@ body {
     height: 100vh;                 
     margin: 0;
     position: relative;
-    z-index: -1;
+    z-index: 0;
 }
 #titleDiv {
     text-align: center;
@@ -37,7 +37,7 @@ body {
     position: absolute;
     bottom: 30%;
     text-align: center;
-    z-index: 1;
+    z-index: 10;
 }
 #centeredLink a {
     text-align: center;
@@ -48,4 +48,5 @@ body {
 #centeredLink a:hover {
     transition: 0.5s;
     color: black;
+    cursor: pointer;
 }
