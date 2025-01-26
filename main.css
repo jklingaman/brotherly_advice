@@ -1,0 +1,93 @@
+body {
+    background: #e3405d;
+    font-family: sunshiney;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#parentDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+    gap: 20px;
+    padding: 20px;
+}
+#adviceList {
+    background: #afa4a1;
+    overflow-y: scroll;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 120px;
+    height: 400px;
+}
+#adviceList p {
+    text-align: center;
+}
+#mainDiv {
+    display: Flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+#answers {
+    font-size: 4vh;
+    text-align: center;
+    margin-top: 185px;
+    padding: 50px;
+   
+}
+#response {
+    background: #afa4a1;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: sunshiney;
+    font-size: 3vh;
+    font-weight: bold;
+}
+#response:hover {
+    background-color: #e7e0df;
+    transition: 0.5s ease;
+}
+#imagePlaceHolder {
+   flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 15%;
+    border-radius: 90%;
+    overflow: hidden;
+  }
+  #header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 25px;
+  }
+  #textBox {
+    width: 200px;
+  }
+  #footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  input {
+    background-color: #e7e0df;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+  }
