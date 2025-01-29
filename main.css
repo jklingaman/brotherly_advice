@@ -91,3 +91,81 @@ body {
     border-radius: 10px;
     padding: 10px;
   }
+/*another media tag here for mid-size*/
+@media(max-width: 1200px) {
+  #mainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+    max-height: none;
+    overflow-y: auto;
+    margin-top: 0;
+    padding-top: 60px;  
+    padding-bottom: 60px;
+  }
+  #mainDiv p {
+    font-size: 3vh;
+  }
+  #imagePlaceHolder {
+    margin-top: 50%;
+    margin-right: 25px;
+  }
+  #adviceList {
+    margin-top: 43%;
+    
+  }
+}
+@media(max-width: 500px) {
+  #header {
+    width: 90%;
+    left: 50%;
+    margin-top: 10px;
+    transform: translateX(-50%);
+  }
+  #parentDiv {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    flex-wrap: wrap;  
+    gap: 10px;  
+}
+  #response {
+    height: fit-content;
+    font-size: 2.3vh;
+  }
+  #adviceList {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    max-height: 100px;
+    overflow-y: auto;
+    padding: 10px;
+    margin: 55px auto;
+    margin-right: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    background-color: #e7e0df; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    text-align: center; 
+    display: block;
+  }
+  #mainDiv {
+    display: block;
+    font-size: 3vh;
+    text-align: center;
+    padding: 20px;
+    min-height: 50px;
+    background: rgba(255, 255, 255, 0.5);
+  }
+  #footer {
+    font-size: 2vh;
+    text-align: center;
+    width: 90%;
+    left: 50%;
+    margin-top: 10px;
+    transform: translateX(-50%);
+  }
+}
