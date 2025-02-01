@@ -58,7 +58,8 @@ body {
     #titleDiv {
         text-align: center;
         position: absolute;
-        width: 800px;
+        max-width: 100vw;
+        padding: 15px;
         font-size: 2.5vh;
         top: 20%;
         z-index: 1;
@@ -71,22 +72,13 @@ body {
     }
 }
 @media(max-width: 500px) {
-    #img1 {
-        opacity: 50%;
-        position: absolute;
-        object-fit: cover;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
     #titleDiv {
         text-align: center;
         position: absolute;
         max-width: 100vw;
         font-size: 2vh;
         top: 20%;
-        padding: 5px;
+        padding: 25px;
         z-index: 1;
     }
     #centeredLink a {
