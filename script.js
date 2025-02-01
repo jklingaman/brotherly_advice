@@ -98,6 +98,16 @@ document.addEventListener("DOMContentLoaded", function() {
                 image: 'https://i.postimg.cc/0rgqrWqV/download.jpg',
             },
         ],
+        life: [
+            {
+                text: 'Life is HARD and it only gets MORE difficult, especially if you don\'t use the tools you have around you properly! The three most helpful tools in life are 1. The Bible. 2. Your family, and 3. Your friends.( The sad truth for you right now, is that 3 isn\'t really one YOU can rely on because most young people are too unaware of their surroundings, and/or unaware of how their actions affect others or they simply just don\'t care.)',
+                image: 'https://i.postimg.cc/W1TS7PGK/god-family-friends.png',
+            },
+            {
+                text: 'I think you are going to do AMAZING things, you are so smart, and so talented at so many things! BUT talent will only get you so far! Hard work beats talent EVERY single time. Nobody who is considered great, got there without a little blood, sweat, and tears. I know I introduced "unleash the dog" to you, but that is just as true in life, as it is in sports! (maybe just a little less aggressive in life.)',
+                image: 'https://i.postimg.cc/6QR36FSW/hardWork.jpg',
+            },
+        ],
     };
 
     const advice = Object.keys(responses)
