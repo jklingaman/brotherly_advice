@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function() {
         mom: [
             {
                 text: 'TRUST ME I know mom can be a lot to deal with sometimes, but you need to know that she doesn\'t want anything but the best for you! She is doing what she thinks is the best decision for your life/future. So don\'t be too hard on her! She loves you! The best thing you can do is communicate.',
-                image: 'https://i.postimg.cc/rwZSdhT0/IMG-0107.jpg',
+                image: 'https://i.postimg.cc/x1BBv3y8/IMG-0107.jpg',
             },
         ],
     };
