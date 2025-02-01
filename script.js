@@ -1,7 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const adiv = document.getElementById("adviceDiv");
-    const adv = document.getElementById("advice");
-    const main = document.getElementById("mainDiv");
+document.addEventListener("DOMContentLoaded", function() { 
     const textBox = document.getElementById("textBox");
     const button = document.getElementById("response");
     const imagePlaceHolder = document.getElementById("imagePlaceHolder");
@@ -106,6 +103,28 @@ document.addEventListener("DOMContentLoaded", function() {
             {
                 text: 'I think you are going to do AMAZING things, you are so smart, and so talented at so many things! BUT talent will only get you so far! Hard work beats talent EVERY single time. Nobody who is considered great, got there without a little blood, sweat, and tears. I know I introduced "unleash the dog" to you, but that is just as true in life, as it is in sports! (maybe just a little less aggressive in life.)',
                 image: 'https://i.postimg.cc/6QR36FSW/hardWork.jpg',
+            },
+        ],
+        friendship: [
+            {
+                text: 'Your friends will be one of the best parts of your life, but it is important to know who your REAL freinds are, but its MORE important to know the difference between people who say they are your friend, and the ones that actually ARE your friend. Your realest freinds will ALWAYS love you for you, (they may not agree with the choices you make and if they\'re reallllly good friends they will say something to you about it.) whereas fake friends will love you only when it is convientient for them. Or when others aren\'t around. This is where your character comes into play though. If they are fake friends cut them off, keep it corigil but don\'t let them disrupt your PEACE.',
+                image: 'https://i.postimg.cc/ZKY6KkNF/fakefriends.png',
+            },
+            {
+                text: 'You are so smart, so creative, truly Ryan you are awesome, and I am NOT saying that because I am your brother. TRUST me, you know I would tell you if I thought otherwise ;) So that said, if there ever comes a day where someone can\'t see that, take a deep breath realize your worth, and walk away!',
+                image: 'https://i.postimg.cc/pdvWRvhP/worth.jpg',
+            },
+        ],
+        boys: [
+            {
+                text: 'Just don\'t',
+                image: 'https://i.postimg.cc/5ySG5c9S/noboys.jpg',
+            },
+        ],
+        mom: [
+            {
+                text: 'TRUST ME I know mom can be a lot to deal with sometimes, but you need to know that she doesn\'t want anything but the best for you! She is doing what she thinks is the best decision for your life/future. So don\'t be too hard on her! She loves you! The best thing you can do is communicate.',
+                image: 'https://i.postimg.cc/rwZSdhT0/IMG-0107.jpg',
             },
         ],
     };
