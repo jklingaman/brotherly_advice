@@ -133,6 +133,8 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         } else {
             adviceElement.textContent = `Hahahha try again little one, "${inputAdvice}" is not one of the available inputs.`;
+            imagePlaceHolder.innerHTML = '<img src = https://i.postimg.cc/YS0ph0Sz/tryagain.jpg>'
         }
+        textBox.value = '';
     });
 });
