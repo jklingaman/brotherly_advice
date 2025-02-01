@@ -1,8 +1,12 @@
 
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
 body {
     background-color: #afa4a1;
     margin: 0;
-    overflow: hidden;
     color: #e3405d;
     font-family: sunshiney;
 }
@@ -79,7 +83,7 @@ body {
     #titleDiv {
         text-align: center;
         position: absolute;
-        width: 800px;
+        max-width: 100vw;
         font-size: 2vh;
         top: 20%;
         padding: 5px;
