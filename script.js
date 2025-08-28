@@ -14,6 +14,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 text: 'I know feeling this way sucks, but you are gonna be okay, you are strong! <3',
                 image: 'https://i.postimg.cc/y6FfmZLt/stronggirl.webp',
               },
+              {
+                text: 'Emotions are like the wind they come and go as they please but if you give your emotions control over your thoughts and actions you will never truly be at peace in your heart. You are loved by many never forget that, just breathe, you got this and anything else life throws at you.',
+                image: 'https://i.postimg.cc/d0K13m8Q/stand-tall.webp',
+              },
         ],
         happy: [
             {
@@ -37,7 +41,11 @@ document.addEventListener("DOMContentLoaded", function() {
             {
                 text: 'Sometimes people just need their asses beat, if you feel like this is one of those times you CALL me first.(Don\'t let Mom see this one.)',
                 image: 'https://i.postimg.cc/FFgQz81g/knuckle-Sandwich.jpg',
-            }
+            },
+            {
+                text: '"Feelings and emotions are wonderful companions but terrible masters" someone at church camp told me that once, and it couldn\'t be more true. If you are angry you can\t give into that anger Ryan keep your head on straight and use your head to make the smart desicion THAT is how you win in life. People will use words, hands, objects others whatever they want but if YOU use YOUR head they won\'t be able to touch you!',
+                image: 'https://i.postimg.cc/9MyTnQC1/self-control.webp',
+            },
         ],
         confused: [
             {
@@ -67,6 +75,12 @@ document.addEventListener("DOMContentLoaded", function() {
             {
                 text:  'You are funny, you are beautiful, you are kind, you are wonderful, you are you, and there is nothing more AMAZING than being yourself, and if the people around you can\'t see how amazing you are alllll that means, is that you need to surround yourself with different people, becuase you Ryan are AMAZING.',
                 image: 'https://i.postimg.cc/jjRpJr0w/i-am-enough-filled.jpg',
+            },
+        ],
+        bored: [
+            {
+                text: 'You are too young to be bored! Get off your ipad, and go hone one of your many talents! There is nothing more rewarding in life than becoming a master of your craft! Go practice dribbling or your shooting form, or go create some art! There is SO much to do!',
+                image: 'https://i.postimg.cc/XJWXXc6c/talented.jpg',
             },
         ],
         inspired: [
@@ -120,11 +134,21 @@ document.addEventListener("DOMContentLoaded", function() {
                 text: 'Just don\'t',
                 image: 'https://i.postimg.cc/5ySG5c9S/noboys.jpg',
             },
+            {
+                text: 'Fishing for another response here was crazy and the answer isn\'t going to change! Boys are trouble!',
+                image: 'https://i.postimg.cc/dQpPBQDg/boys-r-trouble.jpg',
+            },
         ],
         mom: [
             {
                 text: 'TRUST ME I know mom can be a lot to deal with sometimes, but you need to know that she doesn\'t want anything but the best for you! She is doing what she thinks is the best decision for your life/future. So don\'t be too hard on her! She loves you! The best thing you can do is communicate.',
                 image: 'https://i.postimg.cc/x1BBv3y8/IMG-0107.jpg',
+            },
+        ],
+        dad: [
+            {
+                text: 'This is new territory for you, but its a blessing, now you got another person that would do ANYTHING for you! I am sure he will get on to you from now and then but always remember that they just want whats best for you and they\'re trying to raise you into a respectable young woman!',
+                image: 'https://i.postimg.cc/X763W73d/strong-willed.jpg',
             },
         ],
     };
